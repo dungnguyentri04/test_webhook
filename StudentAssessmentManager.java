@@ -65,9 +65,6 @@ public class StudentAssessmentManager {
         return "DEVELOPING";
     }
 
-    /**
-     * BUGC save student performance history
-     */
     public void saveHistory(
             String evaluationCycleId,
             double competencyIndex,
