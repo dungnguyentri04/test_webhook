@@ -7,9 +7,6 @@ public class StudentAssessmentManager {
     private static final Logger LOGGER =
             Logger.getLogger(StudentAssessmentManager.class.getName());
 
-    /**
-     * TODO calculate student performance score
-     */
     public double processAssessment(
             List<Integer> competencyRatings,
             int projectCredits,
