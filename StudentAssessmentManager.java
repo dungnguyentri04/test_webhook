@@ -46,9 +46,6 @@ public class StudentAssessmentManager {
         return studentCompetencyIndex;
     }
 
-    /**
-     * FIXME generate student performance level
-     */
     public String generateLevel(
             double competencyIndex,
             int graduationReadinessScore) {
