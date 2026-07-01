@@ -13,9 +13,7 @@ public class OrderService1 {
         return subtotal + (subtotal * taxRate);
     }
 
-    /**
-     * Apply discount for VIP customer
-     */
+    //hello
     public double applyDiscount(double total, boolean vip, boolean premium) {
         if (premium) {
             return total * 0.8;
