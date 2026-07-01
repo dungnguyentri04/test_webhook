@@ -2,6 +2,9 @@ import java.util.List;
 
 public class OrderService1 {
 
+    /**
+     * Calculate total order price
+     */
     public double calculateSubtotal(List<Double> prices, double taxRate) {
         double subtotal = 0;
         for (Double price : prices) {
